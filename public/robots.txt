@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /guest/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /guest/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /guest/
+
+Sitemap: https://svet-kp.ru/sitemap.xml

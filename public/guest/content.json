@@ -1,0 +1,411 @@
+{
+  "sections": [
+    {
+      "id": "arrival",
+      "icon": "⌂",
+      "ru": "Заселение и бронирование",
+      "en": "Arrival and booking",
+      "image": "room",
+      "steps": [
+        {
+          "ruTitle": "Самостоятельное заселение",
+          "ru": "Заезд с 14:00 до 23:00, выезд до 12:00. Заселение самостоятельное.",
+          "en": "Check-in is 14:00–23:00; check-out is by noon. Self check-in. The key-box code and arrival instructions are provided after the refundable RUB 5,000 deposit is paid."
+        },
+        {
+          "ruTitle": "Стоимость и залог",
+          "ru": "Возвратный залог — 5 000 ₽, отдельно от стоимости проживания. После его внесения вы получите код от key-box и инструкции по заселению.\n\nЗалог возвращаем в течение 48 часов после выезда, если правила проживания соблюдены и нет повреждений.\n\nСтоимость проживания, предоплата и условия отмены указаны в модуле бронирования до оплаты.",
+          "en": "The refundable RUB 5,000 deposit is separate from the accommodation price. The key-box code is supplied after the deposit is paid. The deposit is returned within 48 hours after departure subject to the house rules and absence of damage. See the booking module for price, prepayment and cancellation conditions."
+        }
+      ],
+      "noteRu": "Выберите даты и количество гостей в модуле бронирования.",
+      "noteEn": "See the booking module for current prices and availability.",
+      "imageUrl": "/media/guide/room-v2.webp"
+    },
+    {
+      "id": "hammam",
+      "icon": "♨",
+      "ru": "Хаммам",
+      "en": "Hammam",
+      "image": "hammam-control-panel",
+      "steps": [
+        {
+          "ruTitle": "Сначала включите тёплый пол",
+          "ru": "Примерно за 15 минут до включения хаммама включите тёплый пол чёрным выключателем под белой панелью. Это поможет хаммаму быстрее нагреться. Готовые настройки менять не нужно.",
+          "en": "Turn on the heated floor using the black switch below the white panel about 15 minutes before starting the hammam. This helps it warm up faster. Leave the preset settings unchanged."
+        },
+        {
+          "ruTitle": "Затем включите хаммам",
+          "ru": "Нажмите любую кнопку на панели Steamtec, чтобы разбудить экран, затем ON/OFF справа внизу. Примерно через 15 минут после включения можно заходить в хаммам.",
+          "en": "Wake the Steamtec panel by pressing any button, then press ON/OFF at the bottom right. The hammam will be ready to enter in about 15 minutes."
+        },
+        {
+          "ruTitle": "Настройки",
+          "ru": "Кнопка SET открывает настройки температуры, времени и влажности. Пожалуйста, не меняйте готовые параметры.",
+          "en": "SET opens temperature, duration and humidity settings. Please leave the preset settings unchanged."
+        },
+        {
+          "ruTitle": "После использования",
+          "ru": "Выключите хаммам кнопкой ON/OFF и включите вытяжку. Тёплый пол оставьте для просушки и выключите через несколько часов после использования.",
+          "en": "Turn off the hammam with ON/OFF and turn on the extractor fan. Leave the heated floor on to dry the room, then turn it off a few hours after use."
+        }
+      ],
+      "noteRu": "Не добавляйте ароматические масла и другие жидкости в оборудование: блока ароматизации нет. Не оставляйте работающий хаммам без присмотра.",
+      "noteEn": "Do not add essential oils or other liquids: there is no aroma system. Do not leave the hammam running unattended.",
+      "photos": [
+        {
+          "image": "hammam-control-panel",
+          "alt": "Панель Steamtec и регулятор тёплого пола",
+          "url": "/media/guide/hammam-control-panel-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/hammam-control-panel-v2.webp"
+    },
+    {
+      "id": "tv",
+      "icon": "▣",
+      "ru": "Телевизор Scoole",
+      "en": "Scoole Smart TV",
+      "image": "scoole-television",
+      "steps": [
+        {
+          "ruTitle": "Включить",
+          "ru": "Большой пульт Scoole → красная кнопка питания вверху слева.",
+          "en": "Use the large Scoole remote → red power button at top left."
+        },
+        {
+          "ruTitle": "Приложения",
+          "ru": "Нажмите кнопку с домиком; выберите приложение стрелками и ENTER. Для VK Видео есть отдельная кнопка внизу пульта.",
+          "en": "Press Home; select an app with arrow keys and ENTER. There is a dedicated VK Video button near the bottom."
+        },
+        {
+          "ruTitle": "Выключить",
+          "ru": "Нажмите красную кнопку питания.",
+          "en": "Press the red power button."
+        }
+      ],
+      "noteRu": "Если экран пустой, проверьте SOURCE (источник сигнала). Изображение после включения может улучшаться около 5 минут.",
+      "noteEn": "If the screen is blank, check the SOURCE input. Picture quality may improve a few minutes after switching on.",
+      "photos": [
+        {
+          "image": "scoole-television",
+          "alt": "Телевизор Scoole",
+          "url": "/media/guide/scoole-television-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/scoole-television-v2.webp"
+    },
+    {
+      "id": "casting",
+      "icon": "◫",
+      "ru": "Трансляция с телефона",
+      "en": "Cast from your phone",
+      "image": "scoole-television",
+      "steps": [
+        {
+          "ruTitle": "Android — видео из приложения",
+          "ru": "Подключите телефон и ТВ к одной Wi-Fi сети Kv38. Откройте приложение с кнопкой трансляции (Cast), нажмите её и выберите телевизор, если он появился в списке.",
+          "en": "Connect your Android phone and TV to the same Kv38 Wi-Fi. Open a Cast-compatible video app, tap Cast and select the TV if listed."
+        },
+        {
+          "ruTitle": "Android — весь экран",
+          "ru": "Если телевизор поддерживает Google Cast, откройте Google Home → выберите ТВ → «Транслировать экран». На некоторых телефонах есть пункт «Трансляция» в быстрых настройках.",
+          "en": "If the TV supports Google Cast, open Google Home → select TV → Cast screen. Some Android devices also have Cast in Quick Settings."
+        },
+        {
+          "ruTitle": "iPhone / iPad",
+          "ru": "Если телевизор поддерживает AirPlay: подключите оба устройства к Kv38 → откройте «Пункт управления» → «Повтор экрана» → выберите ТВ. Для видео можно нажать значок AirPlay в приложении.",
+          "en": "If the TV supports AirPlay: connect both devices to Kv38 → Control Center → Screen Mirroring → select the TV. Video apps may offer an AirPlay button."
+        }
+      ],
+      "noteRu": "Важно: поддержка AirPlay и Google Cast телевизором Scoole не проверена. Если ТВ не найден, используйте встроенные приложения телевизора — это надёжнее. Некоторые сервисы запрещают зеркалирование защищённых видео.",
+      "noteEn": "Scoole compatibility with AirPlay/Google Cast is not yet confirmed. If the TV does not appear, use its built-in apps. Some protected videos cannot be mirrored.",
+      "photos": [
+        {
+          "image": "scoole-television",
+          "alt": "Телевизор Scoole",
+          "url": "/media/guide/scoole-television-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/scoole-television-v2.webp"
+    },
+    {
+      "id": "projector",
+      "icon": "▣",
+      "ru": "Проектор + TVIP",
+      "en": "Projector + TVIP",
+      "image": "ceiling-projector",
+      "steps": [
+        {
+          "ruTitle": "Включить проектор",
+          "ru": "Маленький пульт с наклейкой «ПРОЕКТОР» → красная кнопка питания.",
+          "en": "Use the small remote labelled PROJECTOR → red power button."
+        },
+        {
+          "ruTitle": "Переподключить USB справа",
+          "ru": "Справа у проектора найдите USB-кабель питания Smart TV-приставки. Аккуратно выньте штекер из USB-гнезда на несколько секунд, затем вставьте обратно.",
+          "en": "On the right side of the projector, unplug the Smart TV box power cable from the USB port for a few seconds, then reconnect it."
+        },
+        {
+          "ruTitle": "Включить Smart TV",
+          "ru": "После подключения USB включите приставку кнопкой питания STB на среднем пульте TVIP.",
+          "en": "After reconnecting USB, press the STB power button on the medium-sized TVIP remote."
+        },
+        {
+          "ruTitle": "Выбрать видео",
+          "ru": "Кнопка с домиком — главный экран; стрелки и OK — выбор приложений и видео.",
+          "en": "Home for the main screen; arrows and OK to choose apps and videos."
+        },
+        {
+          "ruTitle": "Выключение проектора и приставки",
+          "ru": "Проектор выключается двойным нажатием кнопки выключения на пульте самого проектора. Кнопка STB на пульте TVIP выключает только Smart TV-приставку.",
+          "en": "Switch off the projector by pressing the power-off button on the projector remote twice. STB on the TVIP remote turns off only the Smart TV box."
+        }
+      ],
+      "noteRu": "Отключайте только USB-кабель питания приставки справа от проектора; другие кабели не трогайте. Если изображения нет, проверьте питание проектора и приставки.",
+      "noteEn": "Unplug only the set-top box USB power cable on the right of the projector. Leave other cables connected. If there is no picture, check both devices are on.",
+      "photos": [
+        {
+          "image": "ceiling-projector",
+          "alt": "Проектор и приставка TVIP",
+          "url": "/media/guide/ceiling-projector-v2.webp"
+        },
+        {
+          "image": "tvip-remote",
+          "alt": "Пульт приставки TVIP — кнопка STB сверху слева",
+          "url": "/media/guide/tvip-remote-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/ceiling-projector-v2.webp"
+    },
+    {
+      "id": "dishwasher",
+      "icon": "▤",
+      "ru": "Посудомоечная машина",
+      "en": "Dishwasher",
+      "image": "leran-dishwasher",
+      "steps": [
+        {
+          "ruTitle": "Запуск",
+          "ru": "Удалите крупные остатки еды, загрузите посуду, положите таблетку в отсек моющего средства. Включите питание, выберите программу и запустите мойку кнопкой Start/Pause.",
+          "en": "Remove food scraps, load the dishwasher and place one dishwasher tablet in the detergent compartment. Turn on, select a cycle and press Start/Pause."
+        },
+        {
+          "ruTitle": "После мойки",
+          "ru": "Дождитесь окончания программы, осторожно откройте дверцу и выгрузите посуду.",
+          "en": "Wait for the program to finish, open carefully and unload."
+        }
+      ],
+      "noteRu": "Leran CDW 55-067 White. Таблетки находятся под раковиной. Точное расположение выбора программы нужно проверить по полному фото панели.",
+      "noteEn": "Leran CDW 55-067 White. Tablets are under the sink. The exact program controls still need verification.",
+      "photos": [
+        {
+          "image": "leran-dishwasher",
+          "alt": "Посудомоечная машина Leran — панель управления",
+          "url": "/media/guide/leran-dishwasher-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/leran-dishwasher-v2.webp"
+    },
+    {
+      "id": "laundry",
+      "icon": "▤",
+      "ru": "Стиральная машина",
+      "en": "Washing machine",
+      "image": "candy-washing-machine",
+      "steps": [
+        {
+          "ruTitle": "Стирка",
+          "ru": "Загрузите бельё (до 6 кг). Добавьте средство в отсек II. Выберите программу поворотной ручкой, нажмите Старт/Пауза.",
+          "en": "Load laundry (up to 6 kg). Add detergent to compartment II. Select a program with the dial and press Start/Pause."
+        },
+        {
+          "ruTitle": "После стирки",
+          "ru": "Дождитесь разблокировки дверцы; извлеките вещи, установите переключатель в OFF.",
+          "en": "Wait until the door unlocks; remove clothes and turn the dial to OFF."
+        }
+      ],
+      "noteRu": "Candy Smart Pro. Не открывайте заблокированную дверцу. Хозяйственный шкаф предназначен только для персонала — пожалуйста, не открывайте его.",
+      "noteEn": "Candy Smart Pro. Do not force the locked door. The utility cupboard is for staff only; please do not open it.",
+      "photos": [
+        {
+          "image": "candy-washing-machine",
+          "alt": "Стиральная машина Candy Smart Pro",
+          "url": "/media/guide/candy-washing-machine-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/candy-washing-machine-v2.webp"
+    },
+    {
+      "id": "aircon",
+      "icon": "❄",
+      "ru": "Кондиционер Rovex",
+      "en": "Rovex air conditioner",
+      "image": "rovex-remote",
+      "steps": [
+        {
+          "ruTitle": "Включить",
+          "ru": "Пульт Rovex → кнопка питания вверху слева.",
+          "en": "Rovex remote → power button at the top left."
+        },
+        {
+          "ruTitle": "Режим и температура",
+          "ru": "«РЕЖИМ» — охлаждение ❄ или обогрев ☀; +/− — температура; «СКОРОСТЬ» — вентилятор.",
+          "en": "MODE selects cooling ❄ or heating ☀; +/− adjusts temperature; SPEED controls fan."
+        },
+        {
+          "ruTitle": "Выключить",
+          "ru": "Повторно нажмите питание.",
+          "en": "Press the power button again."
+        }
+      ],
+      "noteRu": "Не оставляйте открытыми окна при работе кондиционера.",
+      "noteEn": "Keep windows closed while the air conditioner is running.",
+      "photos": [
+        {
+          "image": "rovex-remote",
+          "alt": "Пульт кондиционера Rovex",
+          "url": "/media/guide/rovex-remote-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/rovex-remote-v2.webp"
+    },
+    {
+      "id": "hairdryer",
+      "icon": "◌",
+      "ru": "Фен Dyson",
+      "en": "Dyson hair dryer",
+      "image": "dyson-hairdryer",
+      "steps": [
+        {
+          "ruTitle": "Использование",
+          "ru": "Установите насадку, включите фен переключателем на ручке, выберите скорость и температуру.",
+          "en": "Attach a nozzle, switch on using the handle and select speed and heat."
+        },
+        {
+          "ruTitle": "После использования",
+          "ru": "Выключите фен, дождитесь остывания насадки и уберите на место.",
+          "en": "Switch off, let the attachment cool, then put it away."
+        }
+      ],
+      "noteRu": "Не используйте вблизи воды и не перекрывайте воздухозаборник.",
+      "noteEn": "Do not use near water or block the air inlet.",
+      "photos": [
+        {
+          "image": "dyson-hairdryer",
+          "alt": "Фен Dyson с насадками",
+          "url": "/media/guide/dyson-hairdryer-v2.webp"
+        }
+      ],
+      "imageUrl": "/media/guide/dyson-hairdryer-v2.webp"
+    },
+    {
+      "id": "wifi",
+      "icon": "⌁",
+      "ru": "Wi-Fi",
+      "en": "Wi-Fi",
+      "image": "hero",
+      "steps": [
+        {
+          "ruTitle": "Данные сети",
+          "ru": "Имя сети: Kv38. Пароль: 38383838.",
+          "en": "Network: Kv38. Password: 38383838."
+        }
+      ],
+      "noteRu": "Нажмите кнопку копирования пароля на странице.",
+      "noteEn": "Tap the copy password button on this page.",
+      "imageUrl": "/media/guide/hero-v2.webp"
+    },
+    {
+      "id": "sleep",
+      "icon": "☾",
+      "ru": "Спальные места",
+      "en": "Sleeping arrangements",
+      "image": "bed",
+      "steps": [
+        {
+          "ruTitle": "Размещение",
+          "ru": "Кровать в нише 160×200 см, два дивана 140×200 см и дополнительный матрас 120×200 см на втором уровне.",
+          "en": "Alcove bed 160×200 cm, two 140×200 cm sofa beds and an additional 120×200 cm loft mattress."
+        },
+        {
+          "ruTitle": "Диваны",
+          "ru": "Для раскладывания расстегните замочки чехлов с обеих сторон дивана.",
+          "en": "To unfold a sofa, release the cover zippers on both sides."
+        },
+        {
+          "ruTitle": "Как попасть на второй уровень",
+          "ru": "Потяните лестницу за нижние перекладины и отодвиньте её от стены, чтобы было удобно подниматься. Перед подъёмом убедитесь, что лестница стоит устойчиво.",
+          "en": "Pull the ladder away from the wall using its lower rungs to make climbing comfortable. Check that it is stable before climbing."
+        }
+      ],
+      "noteRu": "Комфортно 2–4 взрослым, максимум 5 гостей. Второй уровень не подходит маленьким детям.",
+      "noteEn": "Best for 2–4 adults, maximum 5 guests. The upper loft is unsuitable for small children.",
+      "imageUrl": "/media/guide/bed-v2.webp"
+    },
+    {
+      "id": "checkout",
+      "icon": "✓",
+      "ru": "Выезд и правила",
+      "en": "Check-out and house rules",
+      "image": "room",
+      "steps": [
+        {
+          "ruTitle": "Перед выходом",
+          "ru": "Мы будем признательны за вымытую посуду.\n\nВынесите мусор. Схема расположения мусорных баков висит на подъезде.\n\nВыключите хаммам и закройте окна.\n\nУ входа расположен Мастер-выключатель: он отключает розетки и свет во всей квартире. При выходе воспользуйтесь им.\n\nЗаприте дверь, верните ключ в key-box и сбейте код.\n\nСообщите хозяевам о выезде. Если что-то повредилось, пожалуйста, сообщите об этом в том же сообщении.",
+          "en": "We would appreciate washed dishes.\n\nTake out rubbish; the bin location diagram is posted at the entrance.\n\nSwitch off the hammam and close windows.\n\nThe master switch by the entrance turns off sockets and lights throughout the apartment; use it when leaving.\n\nLock the door, return the key to the key box and scramble the code.\n\nLet the hosts know you have checked out, and report any damage in the same message."
+        },
+        {
+          "ruTitle": "Спокойный отдых и безопасность",
+          "ru": "Пожалуйста, соблюдайте тишину с 22:00 до 09:00.\n\nМы рады спокойным ужинам и отдыху с близкими. Шумные вечеринки и мероприятия здесь не проводятся.\n\nВ квартире не курят: это относится к сигаретам, кальяну, вейпам и любым другим курительным системам. Пожалуйста, учтите: при запахе сигарет или других следах курения залог не возвращается.\n\nМы принимаем гостей без животных. При заселении с животными залог также не возвращается.\n\nДля безопасности гостей в квартире нельзя зажигать свечи и разводить открытый огонь.",
+          "en": "Quiet hours are 22:00–09:00.\n\nQuiet dinners are welcome; no noisy parties or events.\n\nNo smoking, hookah, vaping or other smoking systems indoors. The deposit is not returned if smoking odours or traces are found.\n\nWe host guests without animals; the deposit is not returned if animals are brought in.\n\nFor safety, do not light candles or open flames."
+        },
+        {
+          "ruTitle": "Уборка, обувь и хранение",
+          "ru": "Дополнительная уборка со сменой белья и полотенец возможна за 4 000 ₽.\n\nЛыжи и сноуборды оставляйте на стойке в холле. Лыжные ботинки снимайте до входа: входить в них в квартиру строго запрещено.\n\nСушилка для обуви находится в выдвижном ящике у входной двери.\n\nХозяйственный шкаф предназначен для персонала. Пожалуйста, не открывайте его.\n\nПожалуйста, не передвигайте тяжёлую мебель и не используйте запасное бельё без согласования.",
+          "en": "Extra cleaning with fresh bed linen and towels is RUB 4,000.\n\nLeave skis and snowboards in the hallway rack. Ski boots must be removed before entering; they are strictly prohibited inside.\n\nA shoe dryer is in the pull-out drawer by the entrance.\n\nThe utility cupboard is for staff only.\n\nPlease do not move heavy furniture or use spare linen without permission."
+        },
+        {
+          "ruTitle": "Санузел",
+          "ru": "Для туалетной бумаги, влажных салфеток и средств гигиены используйте мусорное ведро — не бросайте их в унитаз.\n\nЕсли из-за нарушения этого правила возникнет засор, его устранение и необходимый ремонт оплачивает гость.",
+          "en": "Use the bin for toilet paper, wet wipes and hygiene products; do not flush them.\n\nIf this rule causes a blockage, the guest pays for clearing it and any necessary repairs."
+        }
+      ],
+      "noteRu": "Пожалуйста, завершите выезд до 12:00.",
+      "noteEn": "Please complete check-out by noon.",
+      "imageUrl": "/media/guide/room-v2.webp"
+    },
+    {
+      "id": "transport",
+      "icon": "↗",
+      "ru": "Как добраться",
+      "en": "Getting here",
+      "image": "hero",
+      "steps": [
+        {
+          "ruTitle": "Из аэропорта Сочи — автобус",
+          "ru": "На остановке аэропорта садитесь на № 105, 105с или 535 в сторону Роза Хутор. Выходите на остановке «Вертодром» в посёлке Красная Поляна. Ориентир по времени — 50–80 минут в автобусе без учёта ожидания и пробок. Далее пешком до Ставропольской, 20А: ориентировочно 0,9 км, 12–18 минут. Откройте пешеходный маршрут ниже: рельеф, багаж и погода влияют на время.",
+          "en": "For travel options and live route links, see https://svet-kp.ru/#location. Times are approximate; check the timetable before travelling."
+        },
+        {
+          "ruTitle": "От ж/д вокзала Адлер — автобус",
+          "ru": "От остановки ж/д вокзала Адлер — № 105 или 105с в направлении Роза Хутор до «Вертодрома». На поездку ориентировочно 60–90 минут без ожидания; далее около 0,9 км, 12–18 минут пешком до дома.",
+          "en": "For travel options and live route links, see https://svet-kp.ru/#location. Times are approximate; check the timetable before travelling."
+        },
+        {
+          "ruTitle": "На «Ласточке» с пересадкой на автобус",
+          "ru": "От вокзала Адлер выберите поезд в сторону Роза Хутор с остановкой «Эсто-Садок»: обычно около 25–35 минут в поезде. Из аэропорта возможен прямой поезд в этом направлении, если он есть в расписании на вашу дату; иначе сначала поезд до Адлера и пересадка. Прямой участок из аэропорта занимает ориентировочно 30–45 минут. От станции «Эсто-Садок» — автобус № 163 в сторону посёлка Красная Поляна до «Заповедная улица, 9». От остановки до дома около 360 м, ориентировочно 5–7 минут пешком. На автобусную часть заложите примерно 15–30 минут плюс ожидание. Если удобный поезд идёт до конечной «Роза Хутор», оттуда также можно пересесть на № 163 в сторону Красной Поляны; дорога на автобусе будет длиннее. Пешком от железнодорожных станций с чемоданами до квартиры идти не рекомендуем.",
+          "en": "For travel options and live route links, see https://svet-kp.ru/#location. Times are approximate; check the timetable before travelling."
+        },
+        {
+          "ruTitle": "На такси — прямо к дому",
+          "ru": "Укажите в приложении «Красная Поляна, Ставропольская улица, 20А». Такси довезёт к адресу без пересадок и пешего участка от автобусной остановки. От аэропорта ориентировочно 40–60 минут, от вокзала Адлер — 45–70 минут; в пробки и снегопад дольше. Цена и время подачи отображаются в приложении.",
+          "en": "For travel options and live route links, see https://svet-kp.ru/#location. Times are approximate; check the timetable before travelling."
+        }
+      ],
+      "noteRu": "Адрес: Красная Поляна, Ставропольская, 20А. Актуальные маршруты и ссылки на расписания: https://svet-kp.ru/#location. Время зависит от пробок, ожидания и погоды.",
+      "noteEn": "Address: 20A Stavropolskaya Street, Krasnaya Polyana village. Routes and timetable links: https://svet-kp.ru/#location. Travel times vary.",
+      "imageUrl": "/media/guide/hero-v2.webp"
+    }
+  ]
+}
