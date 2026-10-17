@@ -23,6 +23,34 @@
       "imageUrl": "/media/guide/room-v2.webp"
     },
     {
+      "id": "keybox",
+      "icon": "⌑",
+      "ru": "Как пользоваться Key-box",
+      "en": "How to use the key-box",
+      "imageUrl": "/media/guid/keybox-poster.jpg",
+      "videoUrl": "/media/guid/how-unlock-keybox.mp4",
+      "videoPoster": "/media/guid/keybox-poster.jpg",
+      "steps": [
+        {
+          "ruTitle": "Получите код",
+          "ru": "После оплаты залога вы получите код от Key-box.",
+          "en": "After paying the security deposit, you will receive the key-box code."
+        },
+        {
+          "ruTitle": "Откройте бокс",
+          "ru": "Введите полученный код и откройте бокс.",
+          "en": "Enter the code you received and open the box."
+        },
+        {
+          "ruTitle": "Возьмите ключи",
+          "ru": "Возьмите ключи, закройте бокс и сбейте код.",
+          "en": "Take the keys, close the box and scramble the code."
+        }
+      ],
+      "noteRu": "После закрытия бокса сбейте код.",
+      "noteEn": "Scramble the code after closing the box."
+    },
+    {
       "id": "hammam",
       "icon": "♨",
       "ru": "Хаммам",

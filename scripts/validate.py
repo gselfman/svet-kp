@@ -103,6 +103,9 @@ for path in ROOT.rglob('*.json'):
 handbook = json.loads((ROOT / 'guest/content.json').read_text())
 for section in handbook['sections']:
     check_path(section['imageUrl'], ROOT / 'guest/index.html')
+    if section.get('videoUrl'):
+        check_path(section['videoUrl'], ROOT / 'guest/index.html')
+        check_path(section['videoPoster'], ROOT / 'guest/index.html')
     for photo in section.get('photos', []):
         check_path(photo['url'], ROOT / 'guest/index.html')
 
