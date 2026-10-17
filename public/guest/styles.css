@@ -2,3 +2,5 @@
 .detail-photos{display:grid;gap:12px;padding:16px;min-width:0}.detail-photos img{height:auto;max-height:480px;object-fit:contain;border-radius:10px}.card img{object-fit:contain;background:#efeee8}@media(max-width:720px){.detail-photos{width:100%;grid-template-columns:repeat(2,minmax(0,1fr))}.detail-photos img{height:auto;max-height:350px}.detail-photos img:only-child{grid-column:1/-1}}
 
 .step p{margin:0 0 16px;line-height:1.8}.step p:last-child{margin-bottom:0}.detail-photos img{display:block;visibility:visible;opacity:1}
+
+.detail-photos figure{margin:0;min-width:0}.detail-photos figcaption{font-size:12px;line-height:1.6;margin:9px 0 16px;color:#6e756b}.detail-photos figure img{width:100%;height:auto;max-height:520px;object-fit:contain}

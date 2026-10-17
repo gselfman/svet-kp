@@ -341,7 +341,27 @@
       ],
       "noteRu": "Комфортно 2–4 взрослым, максимум 5 гостей. Второй уровень не подходит маленьким детям.",
       "noteEn": "Best for 2–4 adults, maximum 5 guests. The upper loft is unsuitable for small children.",
-      "imageUrl": "/media/guide/bed-v2.webp"
+      "imageUrl": "/media/guide/bed-v2.webp",
+      "photos": [
+        {
+          "image": "bed-v2",
+          "url": "/media/guide/bed-v2.webp",
+          "alt": "Основная кровать в нише апартаментов Светлица",
+          "caption": "Кровать в нише"
+        },
+        {
+          "image": "svetlitsa-spalnoe-mesto-vtoroy-uroven",
+          "url": "/media/guide/svetlitsa-spalnoe-mesto-vtoroy-uroven.webp",
+          "alt": "Дополнительное спальное место на втором уровне Светлицы",
+          "caption": "Спальное место на втором уровне"
+        },
+        {
+          "image": "svetlitsa-razlozhennyy-divan",
+          "url": "/media/guide/svetlitsa-razlozhennyy-divan.webp",
+          "alt": "Разложенный диван со спальным местом и видом на горы в Светлице",
+          "caption": "Разложенный диван"
+        }
+      ]
     },
     {
       "id": "checkout",
