@@ -10,8 +10,13 @@ for program in tar find cp chmod; do command -v "$program" >/dev/null || fail "�
 [[ -f "$source_dir/index.html" && -f "$source_dir/booking-v3.js" ]] || fail 'В public/ нет готового сайта'
 [[ -z "$(find "$source_dir" -type l -print -quit)" ]] || fail 'В public/ обнаружены символические ссылки'
 
-# Confirmed REG.RU document root. An explicit argument may override it.
-target_dir="${1:-/www/svet-kp.ru}"
+# REG.RU file manager shows /www relative to this hosting account home.
+# Reuse the verified canonical target after the first successful deployment.
+target_dir="${1:-}"
+if [[ -z "$target_dir" && -f "$state_dir/docroot" ]]; then
+  IFS= read -r target_dir < "$state_dir/docroot"
+fi
+target_dir="${target_dir:-$HOME/www/svet-kp.ru}"
 [[ "$target_dir" = /* && -d "$target_dir" ]] || fail "Папка сайта не найдена: $target_dir. Проверьте полный путь в Shell REG.RU."
 target_dir=$(cd -- "$target_dir" && pwd -P)
 [[ "$target_dir" != / && "$target_dir" != "$HOME" ]] || fail 'Корнем сайта не может быть / или домашняя папка'
