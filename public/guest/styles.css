@@ -4,3 +4,5 @@
 .step p{margin:0 0 16px;line-height:1.8}.step p:last-child{margin-bottom:0}.detail-photos img{display:block;visibility:visible;opacity:1}
 
 .detail-photos figure{margin:0;min-width:0}.detail-photos figcaption{font-size:12px;line-height:1.6;margin:9px 0 16px;color:#6e756b}.detail-photos figure img{width:100%;height:auto;max-height:520px;object-fit:contain}
+
+.guest-contact-links{display:flex;flex-wrap:wrap;gap:12px 20px;width:100%}.guest-contact-links a{padding:8px 0;text-decoration:underline}

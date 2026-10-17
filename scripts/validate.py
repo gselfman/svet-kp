@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate the static site using only the Python standard library."""
 import json
+import re
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
@@ -35,9 +36,17 @@ class Page(HTMLParser):
         self.ids = []
         self.json_ld = False
         self.json_text = ''
+        self.stack = []
+        self.tags = Counter()
+        self.meta_names = Counter()
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        self.tags[tag] += 1
+        if tag == 'meta' and a.get('name'):
+            self.meta_names[a['name']] += 1
+        if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:
+            self.stack.append(tag)
         if a.get('id'):
             self.ids.append(a['id'])
         for key in ('src', 'href', 'data-full'):
@@ -54,6 +63,12 @@ class Page(HTMLParser):
             self.json_text += text
 
     def handle_endtag(self, tag):
+        if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:
+            if not self.stack or self.stack[-1] != tag:
+                errors.append(f'{self.path.relative_to(ROOT)}: mismatched closing tag </{tag}>')
+            if tag in self.stack:
+                while self.stack and self.stack.pop() != tag:
+                    pass
         if tag == 'script' and self.json_ld:
             try:
                 json.loads(self.json_text)
@@ -64,7 +79,17 @@ class Page(HTMLParser):
 
 for path in ROOT.rglob('*.html'):
     page = Page(path)
-    page.feed(path.read_text())
+    source = path.read_text()
+    if not re.match(r'\s*<!doctype\s+html\s*>', source, re.I):
+        errors.append(f'{path.relative_to(ROOT)}: missing leading <!DOCTYPE html>; browser may use quirks mode')
+    page.feed(source)
+    if page.stack:
+        errors.append(f'{path.relative_to(ROOT)}: unclosed tags {page.stack}')
+    for required in ('html','head','body','title'):
+        if page.tags[required] != 1:
+            errors.append(f'{path.relative_to(ROOT)}: expected exactly one <{required}>')
+    if page.meta_names['description'] != 1:
+        errors.append(f'{path.relative_to(ROOT)}: expected exactly one meta description')
     for ident, count in Counter(page.ids).items():
         if count > 1:
             errors.append(f'{path.relative_to(ROOT)}: duplicate id {ident}')
